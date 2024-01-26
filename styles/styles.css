@@ -1,4 +1,21 @@
 /* Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selector */
+
+.box {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    background-color: gray;
+    color: white;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -20,8 +37,7 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-
+    }
 p {
     padding: 10px;
 }
@@ -40,6 +56,13 @@ aside {
     text-align: center;
 }
 
+aside h2{
+    position: relative;
+    bottom: 5px;
+    /* left: 150px; */
+    
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -48,6 +71,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 aside p {
