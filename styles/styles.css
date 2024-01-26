@@ -7,13 +7,13 @@
 }
 
 /* Class Selector */
-
 .box {
     margin: 1em;
     padding: 1em;
     border: 1px solid rgb(0, 0, 0, 0.1);
     background-color: gray;
     color: white;
+
 }
 
 nav {
@@ -54,13 +54,14 @@ aside {
     background-color: #bbd0ff;
     color: black;
     text-align: center;
+    position: relative;
 }
 
 aside h2{
-    position: relative;
-    bottom: 5px;
-    /* left: 150px; */
-    
+    position: absolute;
+    bottom: 260px;
+    left: 50px;
+           
 }
 
 aside img {
