@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+/*
+ CSS rules to specify families
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap');
+
+
+ /* Define the CSS variables */
+ :root {
+    --primary-color: #003366;
+    --secondary-color: #FFA500;
+    --accent1-color: #669966;
+    --accent2-color: #8B4513;
+    --accent3-color: white;
+
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    /* --nav-background-color: #003366;
+    --nav-link-color: #003366;
+    --nav-hover-link-color: #669966;
+    --nav-hover-background-color: white; */
+ }
+
+/* Hero Container using Position Absolute*/
+
+.hero {
+    position: relative;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 2.0em;
+    color: var(--accent3-color);
+    background-color: #003366;
+    width: 100%;
+    text-align: center;
+        
+  }
+ 
+  .hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  article {
+    position: absolute;
+    bottom: 20em;
+    width: 80%;
+    text-align: center;
+    
+}
+
+
+  article img {
+    float: right;
+    width: 200px;    
+  }
+
+  article {
+      
+  }
+  
+
+
+ h1, h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+ }
+ 
+ p {
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+ }
+
+ footer a {
+    text-decoration: none;
+ }
+
+
+
