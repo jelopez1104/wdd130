@@ -59,20 +59,22 @@ font-family: 'Montserrat', sans-serif;
     position: absolute;
     bottom: 20em;
     width: 80%;
-    text-align: center;
+    left: 8em;    
+    background-color: lightslategrey;
+    padding: 15px;
     
 }
 
+article p {
+    color: var(--accent3-color);
+    text-align: center;
+        
+}
 
   article img {
     float: right;
     width: 200px;    
   }
-
-  article {
-      
-  }
-  
 
 
  h1, h2 {
