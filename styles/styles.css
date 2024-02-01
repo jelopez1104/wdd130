@@ -59,7 +59,8 @@ aside {
 
 aside h2{
     position: absolute;
-    bottom: 260px;
+    color: #1ac578;
+    /* bottom: 260px; */
     left: 50px;
            
 }
