@@ -6,29 +6,43 @@
     box-sizing: border-box;
 }
 
+.grid, header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /* Class Selector */
 .box {
     margin: 1em;
     padding: 1em;
     border: 1px solid rgb(0, 0, 0, 0.1);
-    background-color: gray;
+    background-color: rgb(197, 174, 174);
     color: white;
 
 }
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
+
 }
 
 img {
@@ -37,17 +51,25 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin-top: 1rem;
     }
 p {
     padding: 10px;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+    
+}
+
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     margin: 1em;
     border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 1em;
@@ -55,11 +77,14 @@ aside {
     color: black;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }
 
 aside h2{
     position: absolute;
-    color: #1ac578;
+    color: #000000;
     /* bottom: 260px; */
     left: 50px;
            
