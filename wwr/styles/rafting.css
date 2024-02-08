@@ -35,8 +35,64 @@ font-family: 'Montserrat', sans-serif;
 
 /* Hero Container using Position Absolute*/
 
+header {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto; 
+  align-items: center;   
+  /* background-color: ; */
+  border-bottom: 1px solid #ccc;
+  
+}
+
+header > nav {
+  display: flex;
+  list-style: none;
+}
+
+header > nav > li {
+  flex: 1 1 100%;
+}
+
+header > nav > li > a {
+  display: block;
+  color: var(--primary-color);
+  padding: 20px;
+  text-decoration: none;
+}
+
+header > nav > li > a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.container-history {
+  display: grid;
+  grid-template-columns: 1fr); /*Single column layout*/
+  gap: 20px;
+  max-width: 800px; /*Adjust as needed*/
+  margin: 0 auto; /*Center the container horizontally*/
+}
+
+.history {
+  grid-column: 1;
+  background-color: var(--secondary-color);
+  padding: 20px; /* Add some padding for readability */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+section {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
 .hero {
     position: relative;
+
   }
   
   .hero h1 {
@@ -91,5 +147,19 @@ article p {
     text-decoration: none;
  }
 
+ footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; 
+  padding: 10px; 
+}
+
+/* Style the social media icons */
+nav img {
+  margin-right: 10px;
+  width: 24px; 
+  height: 24px;
+}
 
 
