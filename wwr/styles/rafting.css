@@ -149,17 +149,20 @@ article p {
 
  footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-color: #f0f0f0; 
   padding: 10px; 
 }
+/* footer > p {
+  text-align: center;
+} */
 
 /* Style the social media icons */
 nav img {
   margin-right: 10px;
   width: 24px; 
-  height: 24px;
+  height: 24px;  
 }
 
 
