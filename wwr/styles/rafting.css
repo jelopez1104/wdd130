@@ -43,7 +43,6 @@ header {
   align-items: center;   
   /* background-color: ; */
   border-bottom: 1px solid #ccc;
-  
 }
 
 header > nav {
@@ -92,8 +91,7 @@ section {
 
 .hero {
     position: relative;
-
-  }
+}
   
   .hero h1 {
     position: absolute;
@@ -101,8 +99,7 @@ section {
     color: var(--accent3-color);
     background-color: #003366;
     width: 100%;
-    text-align: center;
-        
+    text-align: center; 
   }
  
   .hero-image {
@@ -118,13 +115,11 @@ section {
     left: 8em;    
     background-color: lightslategrey;
     padding: 15px;
-    
 }
 
 article p {
     color: var(--accent3-color);
-    text-align: center;
-        
+    text-align: center;  
 }
 
   article img {
