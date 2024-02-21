@@ -267,3 +267,63 @@ th {
   background-color: var(--secondary-color);
   color: white;
 }
+
+/* ************************* Home page styles ******************* */
+
+.header {
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--accent3-color);
+  padding: 20px;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 20px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta {
+  text-align: center;
+  padding: 20px;
+}
+
+.cta button {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
