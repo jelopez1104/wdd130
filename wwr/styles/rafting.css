@@ -211,7 +211,7 @@ padding: 10px;
 
 .trip-description h2 {
   color: var(--primary-color);
-  margin: 20px;
+  margin: 10px;
 }
 
 .trip-details {
@@ -228,21 +228,20 @@ padding: 10px;
 
 /* Add this CSS for the book button */
 .book-button {
-  background-color: var(--accent1-color);
-  color: white;
-  padding: 10px 20px;
-  margin: 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: 80%;
-  font-size: large;
-
-.book-button:hover {
-  background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    font-size: large;
 }
 
+.book-button:hover {
+    background-color: var(--accent2-color);
+}
 
 .trip-table {
   margin-top: 40px;
