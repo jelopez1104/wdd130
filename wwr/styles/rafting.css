@@ -211,6 +211,7 @@ padding: 10px;
 
 .trip-description h2 {
   color: var(--primary-color);
+  margin: 20px;
 }
 
 .trip-details {
@@ -235,7 +236,8 @@ padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
+  width: 80%;
+  font-size: large;
 
 .book-button:hover {
   background-color: var(--accent2-color);
